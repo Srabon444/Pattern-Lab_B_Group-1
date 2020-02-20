@@ -1,0 +1,25 @@
+Literature: A Deep Learning Method to More Accurately
+      Recall Known Lysine Acetylation Sites
+
+Dataset Used: CPLM (29,923 Human Lysine Acetylated Sites)
+
+Responsible Residue: Lysine Acetylation
+
+Reduced Redundant Data:  F-Score
+
+Imbalance Data Handle: Randomly Selected(16,107 negative fragments)
+
+Algorithm: Six layer MLP (Neural Network Framework)
+
+Feature Extraction: one-hot, BLOSUM62 matrix,CKSAAP, Information Gain (IG), physiochemical properties, 
+			Position Specific Scoring Matrix (PSSM)
+
+Performance Measure: K-Fold Cross Validation,Independent Test Set
+
+Comparison Tool: NetAcet, PAIL, PSKAcePred, LAceP, etc
+
+Measuring Metrices: Acc, Sn, Sp, MCC, AUC, ROC
+
+Conclusion: This Papers’ deep learning classifier is much more effective in processing big data 
+		than other classifier.  
+
