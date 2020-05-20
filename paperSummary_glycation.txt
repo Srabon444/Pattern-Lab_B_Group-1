@@ -1,0 +1,17 @@
+S.M. Shovan and MD.Al Mehedi Hasan simultaneously introduced a method to predict lysine glycation PTM site in protein using peptide sequence evolution based features. The sequential evolution method produces a feature extractor named Position-Specific Scoring Matrix (PSSM). In this method kernel was chosen for classification based on support vector Machine with Radial Basis Function (RBF) . As it illustrated by 10-fold cross-validation running 5 times ,gained the performance accuracy of 95.94 ± 0.54%, sensitivity of 98.20%, specificity of 90.67 ± 1.07% .The proposed method is better than the comparable existing tools are BPB_GlySite (performance of Acc 69.63(±0.74)%, Sn 63.68(±1.40)%, Sp 72.60(±0.65%), NetGlycate, PreGly and Gly_PseAAC (performance of Acc 68.67(±0.92)%, Sn 57.48(±1.75)%, Sp 74.30(±1.50)%). They used Benchmark dataset of BPB_GlySite which faced data imbalance problem solved by oversampling technique. For PSSM matrix construction they used PSI-BLAST tool. The weakness of this paper is, their web server is absent.
+
+
+
+
+
+****bibtex*****
+
+
+@inproceedings{shovan2019prediction,
+  title={Prediction of Lysine Glycation PTM site in Protein using Peptide Sequence Evolution based Features},
+  author={Shovan, SM and Hasan, Md Al Mehedi},
+  booktitle={2019 International Conference on Electrical, Computer and Communication Engineering (ECCE)},
+  pages={1--5},
+  year={2019},
+  organization={IEEE}
+}
