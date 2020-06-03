@@ -1,0 +1,9 @@
+https://towardsdatascience.com/logistic-regression-detailed-overview-46c4da4303bc
+-----
+
+https://towardsdatascience.com/coding-deep-learning-for-beginners-linear-regression-part-2-cost-function-49545303d29f
+
+-----
+https://towardsdatascience.com/l1-and-l2-regularization-methods-ce25e7fc831c
+
+-----
